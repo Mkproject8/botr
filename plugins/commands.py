@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ ᎪᎠᎠ ᎷᎬ Ͳϴ ᎽϴႮᎡ ᏀᎡϴႮᏢ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('ՏᎬᎪᎡᏟᎻ 🔍', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ՏႮᏢᏢϴᎡͲ 💮', url='https://t.me/Rb_Supports')
+            InlineKeyboardButton('ՏႮᏢᏢϴᎡͲ 💮', url='https://t.me/firstshowers')
         ], [
             InlineKeyboardButton('ᎻᎬᏞᏢ 🧞', callback_data='help'),
             InlineKeyboardButton('ᎪᏴϴႮͲ❤️‍🔥', callback_data='about')
