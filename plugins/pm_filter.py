@@ -403,13 +403,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ ᎪᎠᎠ ᎷᎬ Ͳϴ ᎽϴႮᎡ ᏀᎡϴႮᏢ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('⚡ ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔥 sᴜᴘᴘᴏʀᴛ', url='https://t.me/Rb_Supports')
+            InlineKeyboardButton('ՏᎬᎪᎡᏟᎻ 🔍', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('ՏႮᏢᏢϴᎡͲ 💮', url='https://t.me/Rb_Supports')
         ], [
-            InlineKeyboardButton('💠 ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('💤 ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('ᎻᎬᏞᏢ 🧞', callback_data='help'),
+            InlineKeyboardButton('ᎪᏴϴႮͲ❤️‍🔥', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -427,7 +427,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴇxᴛʀᴀ ᴍᴏᴅᴇꜱ', callback_data='extra')
         ], [
             InlineKeyboardButton('◀️ ʜᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('🔮 ꜱᴛᴀᴛᴜꜱ', callback_data='stats')
+            InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ🏌️', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -437,8 +437,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('💥 ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/Inline_db'),
-            InlineKeyboardButton('⭐ ꜱᴏᴜʀᴄᴇ', callback_data='source')
+            InlineKeyboardButton('💖 ᴜᴘᴅᴀᴛᴇꜱ', url='https://t.me/Inline_db'),
+            InlineKeyboardButton('👀 ꜱᴏᴜʀᴄᴇ', callback_data='source')
         ], [
             InlineKeyboardButton('◀️ ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('🔐 ᴄʟᴏꜱᴇ', callback_data='close_data')
