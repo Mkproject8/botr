@@ -88,3 +88,22 @@ Tʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs
 • /channel - to get list of total connected channels.
 • /broadcast - to broadcast a message to all"""
         
+ STATUS_TXT = """
+   █▀ ▀█▀ ▄▀█ ▀█▀ █▀
+▄█ ░█░ █▀█ ░█░ ▄█
+★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
+★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
+★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
+★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
+★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+    LOG_TEXT_G = """𝐍𝐄𝐖-𝐆𝐑𝐎𝐔𝐏
+𝐆𝐑𝐎𝐔𝐏 = {}(<code>{}</code>)
+𝐓𝐎𝐓𝐀𝐋 𝐌𝐄𝐌𝐁𝐄𝐑𝐒 = <code>{}</code>
+𝐀𝐃𝐃𝐄𝐃 𝐁𝐘 - {}
+"""
+    LOG_TEXT_P = """𝐍𝐄𝐖-𝐔𝐒𝐄𝐑
+𝐈𝐃 - <code>{}</code>
+𝐍𝐀𝐌𝐄 - {}
+"""
+                              
+
