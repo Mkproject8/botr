@@ -87,12 +87,11 @@ Tʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs
 • /unban_users - to unban a user.
 • /channel - to get list of total connected channels.
 • /broadcast - to broadcast a message to all
-    STATUS_TXT = """  
-<b> ★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂:</b> <code>{}</code>
-<b> ★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂:</b> <code>905392</code>
-<b> ★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂:</b> <code>59393</code>
-<b> ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴:</b> <code>{}</code> 𝙼𝚒𝙱                                                                                                                 
- <b>𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴:</b> <code>{}</code> 𝙼𝚒𝙱"""
+    STATUS_TXT = """ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂:</b> <code>{}</code>
+𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂:905392
+𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂:59393
+𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴:</b> <code>{}</code> 𝙼𝚒𝙱                                                                                                                 
+𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴:</b> <code>{}</code> 𝙼𝚒𝙱"""
     LOG_TEXT_G = """𝐍𝐄𝐖-𝐆𝐑𝐎𝐔𝐏
 𝐆𝐑𝐎𝐔𝐏 = {}(<code>{}</code>)
 𝐓𝐎𝐓𝐀𝐋 𝐌𝐄𝐌𝐁𝐄𝐑𝐒 = <code>{}</code>
